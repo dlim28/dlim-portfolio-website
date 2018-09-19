@@ -2,7 +2,7 @@ body
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(12, 1fr);
+    grid-template-rows: repeat(9, 1fr);
     /* height: 100vh; */
 }
 
@@ -36,7 +36,7 @@ h1
 .my-resume
 {
     grid-column: 2 / 6;
-    grid-row: 2 / 6;
+    grid-row: 2 / 4;
 }
 
 /* End Resume CSS styling */
@@ -50,7 +50,7 @@ h1
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 
@@ -88,7 +88,7 @@ h1
 {
     padding-top: 300px;
     grid-column: 3 / 5;
-    grid-row: 1 / 5;
+    grid-row: 1 / 2;
 
     text-align: center;
 }
@@ -140,7 +140,12 @@ h1
 .contact-me
 {
     grid-column: 2 / 6;
-    grid-row: 8 / 12;
+    grid-row: 8 / 9;
 }
 
+footer
+{
+    grid-column: 1 / 6;
+    grid-row: 9 / 10;
+}
 /* End Contact me CSS styling */
