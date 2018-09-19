@@ -8,12 +8,9 @@
     <title>My Portfolio</title>
 </head>
 <body>
-    <div id="about-me">
-        <!-- My Photo -->
-        <img src="https://via.placeholder.com/350x150" alt="Placeholder Image">
-        <!-- About me heading -->
+    <div class="about-me">
+        <img id="my-photo" src="https://via.placeholder.com/350x150" alt="Placeholder Image">
         <h1>About Me</h1>
-        <!-- About me biography-->
         <p id="about-me-content">Hi! The name is Darren Lim but Dazza is fine as well. 
         I am currently a student at CoderAcademy with the intention of being a full stack developer.
         As an avid proponent of tech in general, I am always looking for the next big thing that will progress the world of technology.
@@ -21,9 +18,9 @@
         </p>
     </div>
 
-    <div id="my-resume">
+    <div class="my-resume">
             <h3>Consultant - ServiceNow</h3>
-            <ul>
+            <ul id="exp1">
                <li>Support and development of ServiceNow for clients</li>
                <li>Advise solutions to clients using ServiceNow as a platform</li> 
                <li>Configuration and administration of ServiceNow instances</li> 
@@ -35,7 +32,7 @@
             </ul>
 
             <h3>ServiceNow Administrator</h3>
-            <ul>
+            <ul id="exp2">
                <li>Handled the overall administration of the ServiceNow instances within an enterprise environment. 
                    This includes bug fixing, changes and overall enhancements</li>
                <li>Day to Day configuration of the ServiceNow production instance</li> 
@@ -50,31 +47,31 @@
             </ul>   
     </div>
 
-    <div id="my-skills">
+    <div class="my-skills">
 
         <div id="ruby">
-            <img src="/assets/icons/ruby_icon.svg" alt="Ruby Icon">
+            <img id="ruby-icon" src="/assets/icons/ruby_icon.svg" alt="Ruby Icon">
             <p id="ruby-desc">
                 I use ruby to make shiny gems
             </p>
         </div>
 
         <div id="javascript">
-            <img src="/assets/icons/javascript_icon.svg" alt="Javascript Icon">
+            <img id="js-icon" src="/assets/icons/javascript_icon.svg" alt="Javascript Icon">
             <p id="javascript-desc">
                 I am a fiend when it comes to Javascript. I love the things when it comes to using it
             </p>
-        </div>
+        </div> 
 
-        <div id="css">
-            <img src="/assets/icons/css_icon.svg" alt="CSS Icon">
+         <div id="css">
+            <img id="css-icon" src="/assets/icons/css_icon.svg" alt="CSS Icon">
             <p id="css-desc">
                 Im ok with css. It makes things look pretty. CSS Grid is OP!
             </p>
         </div>
 
         <div id="html">
-            <img src="assets/icons/html5_icon.svg" alt="HTML Icon">
+            <img id="html-icon" src="assets/icons/html5_icon.svg" alt="HTML Icon">
             <p id="html-desc">
                 HTML looks pretty bland and I'm ok at it. I heard you can make a pacman game with HTML5 though...
             </p>
@@ -89,12 +86,12 @@
                 <li>Python</li>
                 <li>C#</li>
                 <li>C++</li>
-                <li>Objective-C<li>
+                <li>Objective-C</li>
             </ul>
         </div>
     </div>
 
-    <div id="contact-me">
+    <div class="contact-me">
         <p id="message">Want to get in contact with me? Leave me a message!</p>
         <form>
             Your Email:<br>
