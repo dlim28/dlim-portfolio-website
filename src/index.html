@@ -22,34 +22,34 @@
         <h2 id="resume-title">Resume</h2>
             <h3>Consultant - ServiceNow</h3>
             <ul id="exp1">
-               <li>Support and development of ServiceNow for clients</li>
-               <li>Advise solutions to clients using ServiceNow as a platform</li> 
-               <li>Configuration and administration of ServiceNow instances</li> 
-               <li>Development of Service Catalog items and Service Portal designs</li> 
+               <li>Support and development of ServiceNow for clients<br></li>
+               <li>Advise solutions to clients using ServiceNow as a platform<br></li> 
+               <li>Configuration and administration of ServiceNow instances<br></li> 
+               <li>Development of Service Catalog items and Service Portal designs<br></li> 
                <li>Development of ServiceNow functions using Business Rules, Client Scripts, 
-                   UI Scripts, UI Actions, Script Includes, ACL, workflows</li> 
-               <li>Supported client customizations and data through instance migrations</li>
+                   UI Scripts, UI Actions, Script Includes, ACL, workflows<br></li> 
+               <li>Supported client customizations and data through instance migrations<br></li>
                <li>Strong exposure to JavaScript and AJAX scripting and best practices</li> 
             </ul>
 
             <h3>ServiceNow Administrator</h3>
             <ul id="exp2">
                <li>Handled the overall administration of the ServiceNow instances within an enterprise environment. 
-                   This includes bug fixing, changes and overall enhancements</li>
-               <li>Day to Day configuration of the ServiceNow production instance</li> 
+                   This includes bug fixing, changes and overall enhancements<br></li>
+               <li>Day to Day configuration of the ServiceNow production instance<br></li> 
                <li>Educate and create training documents for end users as well as resolver groups on the use of
-                    ServiceNow</li> 
-               <li>Configuration of all application UI’s, workflows and notifications</li> 
-               <li>Facilitate the implementation and integration of all modules</li> 
-               <li>Provide recommendations for process improvement across all Service-Now modules</li>
-               <li>Effectively manage and prioritize implementation tasks</li>
-               <li>Ensured all enhancements are of the client’s needs</li> 
+                    ServiceNow<br></li> 
+               <li>Configuration of all application UI’s, workflows and notifications<br></li> 
+               <li>Facilitate the implementation and integration of all modules<br></li> 
+               <li>Provide recommendations for process improvement across all Service-Now modules<br></li>
+               <li>Effectively manage and prioritize implementation tasks<br></li>
+               <li>Ensured all enhancements are of the client’s needs<br></li> 
                <li>Day to day development and configuration to accommodate business needs</li>  
             </ul>   
     </div>
 
     <div class="my-skills">
-
+        <h2 id="skill-title">Skills</h2>
         <div id="ruby">
             <img class="skill-icon" id="ruby-icon" src="../assets/icons/ruby_icon.svg" alt="Ruby Icon">
             <p id="ruby-desc">
@@ -94,22 +94,30 @@
 
     <div class="contact-me">
         <p id="message">Want to get in contact with me? Leave me a message!</p>
-        <form>
-            Your Email:<br>
-            <input type="text" name="Email"><br>
-            Your Message:<br>
-            <input type="text" name="Message"><br>
-            <input type="submit" name="submit">
+        <form name="contact" method="POST" netlify>
+                <p>
+                  <label>Your Name: <input type="text" name="name" /></label>   
+                </p>
+                <p>
+                  <label>Your Email: <input type="email" name="email" /></label>
+                </p>
+                <p>
+                  <label>Message: <textarea name="message"></textarea></label>
+                </p>
+                <p>
+                  <button type="submit">Send</button>
+                </p>
         </form>
     </div>
 
-    <footer>
-        <h2 id="footer-text">Connect with me!</h2>
-            <a href="https://www.linkedin.com/in/darren-lim-67babaa5/"><img class="footer-icon" id="linkedin-icon" src="../assets/icons/linkedin_icon.svg" alt="LinkedIn Icon"></a>
-            <a href="https://github.com/dlim28"><img class="footer-icon" id="github-icon" src="../assets/icons/github_icon.svg" alt="Github Icon"></a>
-            <a href="https://codepen.io/dlim28/"><img class="footer-icon" id="codepen-icon" src="../assets/icons/codepen_icon.svg" alt="Codepen Icon"></a>
-            <a href="https://trello.com/darrenlim28/boards/#"><img class="footer-icon" id="trello-icon" src="../assets/icons/trello_icon.svg" alt="Trello Icon"></a>
-    </footer>
-    
+    <h2 id="footer-text">Connect with me!</h2>
+
+    <div class="footer-links">
+    <a href="https://www.linkedin.com/in/darren-lim-67babaa5/"><img class="footer-icon" id="linkedin-icon" src="../assets/icons/linkedin_icon.svg" alt="LinkedIn Icon"></a>
+    <a href="https://github.com/dlim28"><img class="footer-icon" id="github-icon" src="../assets/icons/github_icon.svg" alt="Github Icon"></a>
+    <a href="https://codepen.io/dlim28/"><img class="footer-icon" id="codepen-icon" src="../assets/icons/codepen_icon.svg" alt="Codepen Icon"></a>
+    <a href="https://trello.com/darrenlim28/boards/#"><img class="footer-icon" id="trello-icon" src="../assets/icons/trello_icon.svg" alt="Trello Icon"></a>
+    </div>
+
 </body>
 </html>
