@@ -39,6 +39,10 @@
         grid-row: 2 / 4;
     }
 
+    #resume-title
+    {
+        text-align: center;
+    }
     /* End Resume CSS styling */
     
     /* Start Skills section CSS styling */
