@@ -193,7 +193,51 @@
         display: grid;
         grid-template-columns: repeat(10, 0.1fr);
         grid-template-rows: repeat(10, 0.1fr);
+
+        /* margin:0;
+        padding:0;
+        perspective: 1px;
+        transform-style: preserve-3d;
+        height: 100%;
+        overflow-y: scroll;
+        overflow-x: hidden; */
     }
+
+    /* .slide 
+    {
+        position: relative;
+        padding: 25vh 10%;
+        min-height: 100vh;
+        width: 100vw;
+        box-sizing: border-box;
+        box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+          transform-style: inherit;
+    }
+    .slide:nth-child(2n) .title {
+        margin-left: 0;
+        margin-right: auto;
+      }
+      
+      .slide:nth-child(2n+1) .title {
+        margin-left: auto;
+        margin-right: 0;
+      }
+      
+      .slide, .slide:before {
+        background: 50% 50% / cover;  
+      }
+
+
+    .slide:before 
+    {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        box-shadow: 0 0 8px 1px rgba(0, 0, 0, .7);
+    } */
 
     p
     {
@@ -220,17 +264,15 @@
         font-family: 'Bitter', serif;
     }
 
+    /* html {
+        height: 100%;
+        overflow: hidden;
+      } */
+
     /* Start "About Me" CSS styling */
-    .about-me
+    #about-me
     {
         grid-column: 4 / 8;
-    }
-    
-    #my-photo
-    {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
     
     #about-me-content
@@ -242,20 +284,10 @@
     
     /* Start Resume CSS styling */
     
-    .my-resume
+    #my-resume
     {
         grid-column: 3 / 9;
         grid-row: 2 / 3;
-    }
-
-    #exp1
-    {
-        list-style: none;
-    }
-
-    #exp2
-    {
-        list-style: none;
     }
     
     #resume-title
@@ -267,7 +299,7 @@
     
     /* Start Skills section CSS styling */
     
-    .my-skills
+    #my-skills
     {
         grid-column: 5 / 7;
         grid-row: 3 / 4;
@@ -360,7 +392,7 @@
     
     /* Start Contact Me CSS styling */
     
-    .contact-me
+    #contact-me
     {
         grid-column: 3 / 9;
         grid-row: 6 / 7;
