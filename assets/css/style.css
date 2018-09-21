@@ -42,6 +42,7 @@
     #resume-title
     {
         text-align: center;
+        color: #988A4D;
     }
 
     #exp1
@@ -70,6 +71,7 @@
     #skill-title
     {
         text-align: center;
+        color: #988A4D;
     }
 
     .skill-icon
@@ -117,6 +119,7 @@
     h2
     {
         text-align: center;
+        color: #988A4D;
     }
 
     #other-skills-desc
@@ -183,22 +186,44 @@
 
 @media only screen and (min-width: 768px) {
     /* For desktop: */
+
     body 
     {
+        background: #17191F;
         display: grid;
         grid-template-columns: repeat(10, 0.1fr);
         grid-template-rows: repeat(10, 0.1fr);
     }
+
+    p
+    {
+        color: #B7B9B8;
+        font-family: 'Merriweather Sans', sans-serif;
+    }
     
+    ul
+    {
+        color: #B7B9B8;
+        font-family: 'Merriweather Sans', sans-serif;
+    }
+
+    h1
+    {
+        text-align: center;
+        color: #988A4D;
+        font-family: 'Bitter', serif;
+    }
+
+    h3
+    {
+        color: #988A4D;
+        font-family: 'Bitter', serif;
+    }
+
     /* Start "About Me" CSS styling */
     .about-me
     {
         grid-column: 4 / 8;
-    }
-    
-    h1
-    {
-        text-align: center;
     }
     
     #my-photo
@@ -210,7 +235,7 @@
     
     #about-me-content
     {
-        color: dodgerblue;
+        color: #B7B9B8;
     }
     
     /* End "About Me" CSS styling */
@@ -236,6 +261,7 @@
     #resume-title
     {
         text-align: center;
+        color: #988A4D;
     }
     /* End Resume CSS styling */
     
@@ -256,6 +282,7 @@
     #skill-title
     {
         text-align: center;
+        color: #988A4D;
     }
     
     #ruby
@@ -292,6 +319,7 @@
         grid-column: 7 / 10;
         grid-row: 4 / 6;
         text-align: center;
+        color: #988A4D;
     }
     
     #other-skills-list
@@ -338,14 +366,15 @@
         grid-row: 6 / 7;
     }
 
-    form
-    {
-        padding-left: 100px;
-    }
+   #contact-form
+   {
+       text-align: center;
+   }
 
     #message
     {
         text-align: center;
+        
     }
     
     #message-field
@@ -355,7 +384,7 @@
     
     #button
     {
-        margin-left: 120px;
+        text-align: center;
     }
     /* End Contact Me CSS styling */
     
@@ -373,6 +402,7 @@
         grid-row: 8 / 10;
         display: flex;
         justify-content: space-around;
+        
     }
 
     #footer-text
@@ -380,9 +410,57 @@
         grid-column: 4 / 8;
         grid-row: 7 / 8;
         text-align: center;
+        color: #988A4D;
     }
 
     /* End Footer CSS styling */
+      
+      /* .scroll-up 
+      {
+        
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
+      .scroll-up span {
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-top: 1px solid #988A4D;
+        border-left: 1px solid #988A4D;
+        transform: rotate(45deg);
+        margin: -10px;
+        animation: animate 2s infinite;
+      }
+      
+      .scroll-up span:nth-child(1)
+      {
+        animation-delay: -0.2s;
+      }
+      
+      .scroll-up span:nth-child(2)
+      {
+        animation-delay: -0.4s;
+      }
+      
+      @keyframes animate
+      {
+        0%
+        {
+          opacity: 0;
+          transform: rotate(45deg) translate(20px, 20px);
+        }
+        50%
+        {
+          opacity: 1;
+        }
+        100%
+        {
+          opacity: 0;
+          transform: rotate(45deg) translate(-20px, -20px);
+        }
+      } */
 }
 
 
