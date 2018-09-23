@@ -9,18 +9,18 @@
     <title>My Portfolio</title>
 </head>
 <body>
-    <div class="slide" id="about-me">
-        <!-- <img id="my-photo" src="https://via.placeholder.com/350x150" alt="Placeholder Image"> -->
+    <div id="title" class="slide header">
         <h1>About Me</h1>
-        <p id="about-me-content">Hi! The name is Darren Lim but Dazza is fine as well.<br>
-        I am currently a student at CoderAcademy with the intention of being a full stack developer.<br>
-        As an avid proponent of tech in general, I am always looking for the next big thing that will progress the world of technology.<br>
-        Also I am big on video games as well as the video games industry and how it has evolved over the years.
+        <p id="about-me-content">Hi! My name is Darren.<br>
+            I am currently a student at CoderAcademy with the intention of being a full stack developer.<br>
+            As an avid enthusiast of technology in general, I am always looking for the next big thing that will progress the world of technology.<br>
+            Also I am big on video games as well as the video games industry and how it has evolved over the years.
         </p>
     </div>
-
-    <div class="slide" id="my-resume">
-        <h2 id="resume-title">Resume</h2>
+      
+      <div id="slide1" class="slide">
+        <div class="title">
+            <h2 id="resume-title">Resume</h2>
             <h3>Consultant - ServiceNow</h3>
             <ul id="exp1">
                <li>Support and development of ServiceNow for clients<br></li>
@@ -46,83 +46,103 @@
                <li>Effectively manage and prioritize implementation tasks<br></li>
                <li>Ensured all enhancements are of the client’s needs<br></li> 
                <li>Day to day development and configuration to accommodate business needs</li>  
-            </ul>   
-    </div>
+            </ul>
 
-    <div class="slide" id="my-skills">
-        <h2 id="skill-title">Skills</h2>
-    </div>
-
-        <div id="ruby">
-            <img class="skill-icon" id="ruby-icon" src="../assets/icons/ruby_icon.svg" alt="Ruby Icon">
-            <p id="ruby-desc">
-                I use ruby to make shiny gems
-            </p>
-        </div>
-
-        <div id="javascript">
-            <img class="skill-icon" id="js-icon" src="../assets/icons/javascript_icon.svg" alt="Javascript Icon">
-            <p id="javascript-desc">
-                I am a fiend when it comes to Javascript. I love the things when it comes to using it
-            </p>
-        </div> 
-
-         <div id="css">
-            <img class="skill-icon" id="css-icon" src="../assets/icons/css_icon.svg" alt="CSS Icon">
-            <p id="css-desc">
-                Im ok with css. It makes things look pretty!
-            </p>
-        </div>
-
-        <div id="html">
-            <img class="skill-icon" id="html-icon" src="../assets/icons/html5_icon.svg" alt="HTML Icon">
-            <p id="html-desc">
-                As with CSS, I am also ok with HTML
-            </p>
-        </div>
-
-        <div id="other-skills">
-            <h2>Other Skills</h2>
-            <p id="other-skills-desc">I am also familiar with the following languages:</p>
-            <ul id="other-skills-list">
-                <li>Powershell</li>
-                <li>Java</li>
-                <li>Python</li>
-                <li>C#</li>
-                <li>C++</li>
-                <li>Objective-C</li>
+            <h3>System Administrator - Wintel</h3>
+            <ul id="exp3">
+               <li>Responsible for system uptime<br></li>
+               <li>Day to Day configuration of instances<br></li> 
+               <li>Monitor system performance<br></li> 
+               <li>Ensured backup and recovery policies are up to date<br></li> 
+               <li>Assisted in monthly Disaster Recovery excercises<br></li> 
+               <li>Provided server maintenance and patching<br></li>
+               <li>Set up group polices as per client needs<br></li>
             </ul>
         </div>
-    
+      </div>
+      
+    <div id="slide2" class="slide">
+        <div class="title" id="skills-section">
+          <h1 id="skills-title">Skills</h1>
 
-    <div class="slide" id="contact-me">
-        <p id="message">Want to get in contact with me? Leave me a message!</p>
-        <div id="contact-form">
-                <form name="contact" method="POST" netlify>
-                        <p>
-                          <label>Your Name: <input type="text" name="name" /></label>   
-                        </p>
-                        <p>
-                          <label>Your Email: <input type="email" name="email" /></label>
-                        </p>
-                        <p>
-                          <label id="message-field">Message: <textarea name="message"></textarea></label>
-                        </p>
-                        <p>
-                          <button id="button" type="submit">Send</button>
-                        </p>
-                </form>
+            <div id="ruby">
+                <img class="skill-icon" id="ruby-icon" src="../assets/icons/ruby_icon.svg" alt="Ruby Icon">
+                <p id="ruby-desc">
+                    Ruby
+                </p>
+            </div>
+
+            <div id="javascript">
+                <img class="skill-icon" id="js-icon" src="../assets/icons/javascript_icon.svg" alt="Javascript Icon">
+                <p id="javascript-desc">
+                    Javascript
+                </p>
+            </div> 
+
+            <div id="css">
+                <img class="skill-icon" id="css-icon" src="../assets/icons/css_icon.svg" alt="CSS Icon">
+                <p id="css-desc">
+                    CSS
+                </p>
+            </div>
+
+            <div id="html">
+                <img class="skill-icon" id="html-icon" src="../assets/icons/html5_icon.svg" alt="HTML Icon">
+                <p id="html-desc">
+                    HTML
+                </p>
+            </div>
+
+            <div id="other-skills">
+                <h2>Other Skills</h2>
+                <p id="other-skills-desc">I am also familiar with the following languages:</p>
+                <ul id="other-skills-list">
+                    <li id="powershell">Powershell</li>
+                    <li id="java">Java</li>
+                    <li id="python">Python</li>
+                    <li id="c#">C#</li>
+                    <li id="c++">C++</li>
+                    <li id="obj-c">Objective-C</li>
+                </ul>
+            </div>
         </div>
-        
     </div>
+      
+    <div id="slide3" class="slide">
+        <div class="title" id="contact">
+            <p id="message">Want to get in contact with me? Leave me a message!</p>
+            <div id="contact-form">
+                <form name="contact" method="POST" netlify>
+                    <p>
+                        <label>Your Name: <input type="text" name="name" /></label>   
+                    </p>
 
-    <h2 id="footer-text">Connect with me!</h2>
-    <div class="footer">
-    <a href="https://www.linkedin.com/in/darren-lim-67babaa5/"><img class="footer-icon" id="linkedin-icon" src="../assets/icons/linkedin_icon.svg" alt="LinkedIn Icon"></a>
-    <a href="https://github.com/dlim28"><img class="footer-icon" id="github-icon" src="../assets/icons/github_icon.svg" alt="Github Icon"></a>
-    <a href="https://codepen.io/dlim28/"><img class="footer-icon" id="codepen-icon" src="../assets/icons/codepen_icon.svg" alt="Codepen Icon"></a>
-    <a href="https://trello.com/darrenlim28/boards/#"><img class="footer-icon" id="trello-icon" src="../assets/icons/trello_icon.svg" alt="Trello Icon"></a>
+                    <p>
+                        <label>Your Email: <input type="email" name="email" /></label>
+                    </p>
+
+                    <p>
+                        <label id="message-field">Message: <textarea name="message"></textarea></label>
+                    </p>
+
+                    <p id="submit-button">
+                        <button id="button" type="submit">Send</button>
+                    </p>
+                </form>
+            </div>
+        </div>
     </div>
-
+    
+    <div id="slide4" class="slide">
+        <h2 id="footer-text">Connect with me!</h2>
+        <div id="links">
+            <a href="https://www.linkedin.com/in/darren-lim-67babaa5/"><img class="footer-icon" id="linkedin-icon" src="../assets/icons/linkedin_icon.svg" alt="LinkedIn Icon"></a>
+            <a href="https://github.com/dlim28"><img class="footer-icon" id="github-icon" src="../assets/icons/github_icon.svg" alt="Github Icon"></a>
+            <a href="https://codepen.io/dlim28/"><img class="footer-icon" id="codepen-icon" src="../assets/icons/codepen_icon.svg" alt="Codepen Icon"></a>
+            <a href="https://trello.com/darrenlim28/boards/#"><img class="footer-icon" id="trello-icon" src="../assets/icons/trello_icon.svg" alt="Trello Icon"></a> 
+        </div>
+    </div>
+            
+       
 </body>
 </html>
