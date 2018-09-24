@@ -32,7 +32,7 @@ The webpage mainly uses html and css for the design and styling. It is deployed 
 The theme that was decided was a more minimalist style with subtle colors that will be eye catching by not being bold.
 The initial moodboard that was craeted in pinterest even made the following suggestions simply due to the aesthetic that was chosen
 
-![alt text][logo] INSERT PICTURE OF MOODBOARD HERE
+![alt text][logo]
 
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Moodboard suggestions"
 
@@ -74,8 +74,15 @@ Work Sans: [LINK](https://fonts.google.com/specimen/Work+Sans)
 INSERT WIREFRAMES OF MOBILE AND DESKTOP AS WELL AS COLOURED VERSION
 
 ## **Mobile**
+![alt text][wireframe-mobile]
+
+[wireframe-mobile]: https://raw.githubusercontent.com/dlim28/dlim-portfolio-website/master/docs/wireframe-mobile.png "Wireframe Mobile"
 
 ## **Desktop
+![alt text][wireframe-desktop]
+
+[wireframe-desktop]:
+https://raw.githubusercontent.com/dlim28/dlim-portfolio-website/master/docs/wireframe-desktop.png "Wireframe Desktop"
 
 # Project Management
 
